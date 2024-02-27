@@ -1,0 +1,17 @@
+---
+title: "How does frogspawn hatching time vary with temperature?"
+author: "Meg Shaw"
+date: "27/02/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+response variable is time (days) the frogspawn took to hatch
+explanatory variable is Temperature, with 3 levels: 13°C, 18°C and 25°C.
+
+null hypothesis = temperature will have no effect on the speed of frogspawn hatching.
+
+actual hypothesis = mean frogspawn hatching time will vary with temperature level. We can predict that given our temperature range, at the highest temperature (25°C) hatching time will be reduced.
