@@ -36,5 +36,3 @@ broom::tidy(lsmodel_frogs1, conf.int = T)
 #check assumptions
 performance::check_model(lsmodel_frogs1,
                          check = c("qq", "outliers", "homogeneity"))
-
-
